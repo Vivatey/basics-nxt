@@ -17,7 +17,7 @@ h2 {
 }
 
 ul {
-  padding: 12px 0;
+  padding: 10px 0;
   margin: 0;
   list-style-type: none;
   transition: all 200ms ease-in-out;
@@ -31,6 +31,10 @@ ul:hover {
 p {
   font-family: monospace;
   font-size: 18px;
+}
+
+p .min-temp {
+  opacity: 0.6;
 }
 
 button {
@@ -54,6 +58,7 @@ button:hover {
 footer {
   font-family: monospace;
   font-size: 18px;
+  opacity: 0.6;
 }
 
 .min-temp {
